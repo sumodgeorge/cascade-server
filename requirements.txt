@@ -10,7 +10,7 @@ flask==1.1.2
 gevent-websocket==0.10.1
 gevent==21.1.2
 greenlet==1.0.0 ; platform_python_implementation == 'CPython'
-idna==2.10
+idna==3.7
 importlib-metadata==3.7.2 ; python_version < '3.8'
 itsdangerous==1.1.0
 jinja2==2.11.3
