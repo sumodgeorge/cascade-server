@@ -8,7 +8,7 @@ cryptography==3.4.6
 elasticsearch==7.11.0
 flask==1.1.2
 gevent-websocket==0.10.1
-gevent==21.1.2
+gevent==25.4.1
 greenlet==1.0.0 ; platform_python_implementation == 'CPython'
 idna==2.10
 importlib-metadata==3.7.2 ; python_version < '3.8'
@@ -32,3 +32,4 @@ werkzeug==1.0.1
 zipp==3.4.1
 zope.event==4.5.0
 zope.interface==5.2.0
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
